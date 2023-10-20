@@ -1,10 +1,16 @@
-// toggel class active
-const navbarNav = document.querySelector('navbar-nav');
-// ketika hamburger menu di klik
-document.querySelector('#hamburger-menu').onclick = () => {
-  navbarNav.classlist.toggle('active');
-};
+const klik = document.querySelector("#hamburger-menu");
+            const sh = document.querySelector("#navbar-nav");
 
-
-
-
+            klik.addEventListener("click", () => {
+                sh.classList.toggle("active");
+            });
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
