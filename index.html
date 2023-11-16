@@ -55,7 +55,6 @@
                     <img src="tentang-kami.jpg" alt="Tentang Kami" />
                 </div>
                 <div class="content">
-                    
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Pariatur ducimus voluptatum dolor. Et, voluptatum
@@ -146,12 +145,50 @@
 
         <!-- Contact Section start -->
         <section id="contact" class="contact">
-            <h2><span>contact</span> </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis, provident.
-            </p>
+            <h2><span>Pesan Sekarang</span></h2>
 
+            <section class="pmks">
+                <div class="container">
+
+                    <form action="">
+                        <div>
+                            <span>
+                                <label for="name">Nama</label><br />
+                                <input
+                                    id="name"
+                                    type="text"
+                                    placeholder="Nama lengkap"
+                            /></span>
+                            <span>
+                                <label for="email">Tanggal</label>
+                                <br />
+                                <input
+                                    id="email"
+                                    type="text"
+                                    placeholder="Masukan tanggal"
+                                />
+                            </span>
+                            <span>
+                                <label for="alamat">Alamat</label>
+                                <br />
+                                <input
+                                    id="alamat"
+                                    type="text"
+                                    placeholder="Masukan alamat"
+                                />
+                            </span>
+                        </div>
+                        <label for="message">Kirim Pesan</label><br />
+                        <textarea
+                            name=""
+                            id="message"
+                            rows="10"
+                            placeholder="Your Message"
+                        ></textarea>
+                        <button onclick="sendToWhatsapp()">Submit</button>
+                    </form>
+                </div>
+            </section>
             <div class="row">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.515646924703!2d106.33650547767503!3d-6.3271595936623894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42119890ad88f3%3A0x9160637e049d69f5!2sAteu%20Ayu%20Makeup!5e0!3m2!1sid!2sid!4v1700044385390!5m2!1sid!2sid"
@@ -160,8 +197,6 @@
                     referrerpolicy="no-referrer-when-downgrade"
                     class="map"
                 ></iframe>
-
-                
             </div>
         </section>
         <!-- Contact Section end -->
@@ -172,13 +207,6 @@
                 <a href="#"><i data-feather="instagram"></i></a>
                 <a href="#"><i data-feather="twitter"></i></a>
                 <a href="#"><i data-feather="facebook"></i></a>
-            </div>
-
-            <div class="links">
-                <a href="#home">Home</a>
-                <a href="#about">Tentang Kami</a>
-                <a href="#menu">Menu</a>
-                <a href="#contact">Kontak</a>
             </div>
 
             <div class="credit">

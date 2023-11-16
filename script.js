@@ -45,3 +45,22 @@ window.onclick = (e) => {
     itemDetailModal.style.display = 'none';
   }
 };
+// kirim pesanbke wa
+function sendToWhatsapp(){
+
+	let number = "+6289515549484";
+
+
+	let name = document.getElementById('name').value;
+	let tanggal = document.getElementById('email').value;
+	let alamat = document.getElementById('alamat').value;
+	let message = document.getElementById('message').value;
+
+	var url = "https://wa.me/" + number + "?text="
+	+ "Name : " +name+ "%0a"
+	+ "Tanggal : " +tanggal+ "%0a"
+	+ "Alamat : " +alamat+ "%0a"
+	+ "Message : " +message+ "%0a%0a";
+
+	window.open(url, '_blank').focus();
+}
