@@ -13,113 +13,238 @@ body {
     padding: 0;
     background-color: var(--hitambg);
 }
-.jumbo {
-    background-color: var(--hitambg);
-}
-img {
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-}
-.img-item {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+/* Laptop */
+@media (max-width: 1366px) {
+
+    .jumbo {
+        background-color: var(--hitambg);
+    }
+    img {
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+    }
+    .img-item {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: center;
+    }
+    .kcn {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        height: 1.1rem;
+        width: 13.5rem;
+        border-radius: 3px;
+        background-color: var(--bgn);
+    }
+    .alamat {
+        font-size: 14px;
+    }
+    p {
+        text-align: center;
+        color: var(--textpt);
+    }
+    .jumbo span {
+        color: var(--hijaus);
+        padding-right: 5px;
+    }
+
+    /* Contact Section */
+    .contact .row {
+        display: flex;
+        margin-top: 2rem;
+        background-color: #222;
+    }
+
+    .contact .row .map {
+        flex: 1 1 45rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* kirim k wa */
+    .pmks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span label {
+        color: var(--primary);
+    }
+    .container {
+        background-color: var(--bgn);
+        border-radius: 5px;
+        padding: 3rem;
+        width: 15rem;
+    }
+
+    span input {
+        width: 100%;
+        padding: 0.5rem 0.2rem;
+        background-color: var(--wbg);
+        border: none;
+        outline: none;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: var(--primary);
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: var(--bg);
+        border: none;
+        margin-top: 20px;
+    }
+    button:hover {
+        background-color: var(--bg);
+        color: var(--primary);
+        cursor: pointer;
+    }
+
+    footer {
+        padding: 1rem;
+        background-color: var(--bgn);
+        margin-top: 30px;
+    }
+    footer .socials {
+        display: flex;
+        justify-content: center;
+    }
+    .socials a {
+        padding: 5px;
+        color: #fff;
+        font-size: 30px;
+    }
+    footer span {
+        color: var(--wbg);
+    }
 }
 
-h1 {
-    color: #fff;
-    text-align: center;
-}
-.kcn {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    height: 1.1rem;
-    width: 60vmin;
-    border-radius: 3px;
-    background-color: var(--bgn);
-}
-.alamat {
-    font-size: 14px;
-}
-p {
-    text-align: center;
-    color: var(--textpt);
-}
-.jumbo span {
-    color: var(--hijaus);
-    padding-right: 5px;
-}
 
-/* Contact Section */
-.contact .row {
-    display: flex;
-    margin-top: 2rem;
-    background-color: #222;
+/* Tablet */
+@media (max-width: 758px) {
 }
+/* Headphone */
 
-.contact .row .map {
-    flex: 1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-}
+@media (max-width: 450px) {
+    .jumbo {
+        background-color: var(--hitambg);
+    }
+    img {
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+    }
+    .img-item {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
 
-/* kirim k wa */
-.pmks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-span label {
-    color: #fff;
-  
-}
-.container {
-    background-color: var(--bgn);
-    border-radius: 5px;
-    padding: 3rem;
-    width: 15rem;
-}
+    h1 {
+        color: #fff;
+        text-align: center;
+    }
+    .kcn {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        height: 1.1rem;
+        width: 13.5rem;
+        border-radius: 3px;
+        background-color: var(--bgn);
+    }
+    .alamat {
+        font-size: 14px;
+    }
+    p {
+        text-align: center;
+        color: var(--textpt);
+    }
+    .jumbo span {
+        color: var(--hijaus);
+        padding-right: 5px;
+    }
 
-span input {
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--wbg);
-    border: none;
-    outline: none;
-    margin-top: 2px;
-    margin-bottom: 10px;
-}
+    /* Contact Section */
+    .contact .row {
+        display: flex;
+        margin-top: 2rem;
+        background-color: #222;
+    }
 
-button {
-    background-color: var(--primary);
-    padding: 10px 30px;
-    border-radius: 5px;
-    color: var(--bg);
-    border: none;
-    margin-top: 20px;
-}
-button:hover {
-    background-color: var(--bg);
-    color: var(--primary);
-    cursor: pointer;
-}
+    .contact .row .map {
+        flex: 1 1 45rem;
+        width: 100%;
+        object-fit: cover;
+    }
 
+    /* kirim k wa */
+    .pmks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span label {
+        color: var(--primary);
+    }
+    .container {
+        background-color: var(--bgn);
+        border-radius: 5px;
+        padding: 3rem;
+        width: 15rem;
+    }
 
-footer{
-  padding: 1rem;
-  background-color: var(--bgn);
-  margin-top: 30px;
-}
-footer .socials{
-  display: flex;
-  justify-content: center;
-}
-.socials a{
-  padding: 5px;
-  color: #fff;
-  font-size: 30px;
+    span input {
+        width: 100%;
+        padding: 0.5rem 0.2rem;
+        background-color: var(--wbg);
+        border: none;
+        outline: none;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: var(--primary);
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: var(--bg);
+        border: none;
+        margin-top: 20px;
+    }
+    button:hover {
+        background-color: var(--bg);
+        color: var(--primary);
+        cursor: pointer;
+    }
+
+    footer {
+        padding: 1rem;
+        background-color: var(--bgn);
+        margin-top: 30px;
+    }
+    footer .socials {
+        display: flex;
+        justify-content: center;
+    }
+    .socials a {
+        padding: 5px;
+        color: #fff;
+        font-size: 30px;
+    }
+    footer span {
+        color: var(--wbg);
+    }
 }
