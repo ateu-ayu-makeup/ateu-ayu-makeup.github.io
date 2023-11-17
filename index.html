@@ -17,6 +17,14 @@
         <!-- Feather Icons -->
         <script src="https://unpkg.com/feather-icons"></script>
 
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css"
+            integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
         <!-- My Style -->
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -38,6 +46,15 @@
             </div>
         </nav>
         <!-- Navbar end -->
+        <!-- Navbar WA start-->
+        <section class="wa-bks">
+            
+              <div class="wa-icon">
+                <a href="https://wa.me/+6289515549484" id="navbar-wa"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            
+        </section>
+        <!-- Navbar WA end-->
 
         <!-- Hero Section start -->
         <section class="hero" id="home">
@@ -149,7 +166,6 @@
 
             <section class="pmks">
                 <div class="container">
-
                     <form action="">
                         <div>
                             <span>
@@ -185,7 +201,9 @@
                             rows="10"
                             placeholder="Your Message"
                         ></textarea>
-                        <button onclick="sendToWhatsapp()">Submit</button>
+                        <button onclick="sendToWhatsapp()">
+                            <i class="fab fa-whatsapp"></i> Kirim
+                        </button>
                     </form>
                 </div>
             </section>

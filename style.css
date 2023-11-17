@@ -87,6 +87,29 @@ body {
     display: none;
 }
 
+/* navbar wa */
+.wa-bks {
+
+  position: absolute;
+  margin-top: 80vh;
+  margin-left: 93vmax;
+}
+.wa-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #24810d;
+}
+
+.wa-icon a {
+    color: #fff;
+    font-size: 3.5rem;
+}
 /* Hero Section */
 .hero {
     margin-top: 5.9rem;
@@ -246,7 +269,6 @@ span {
     padding: 3rem;
     width: 35rem;
 }
-
 
 span input {
     width: 100%;
@@ -445,7 +467,11 @@ footer .credit a {
     .navbar .navbar-nav a:hover::after {
         transform: scaleX(0.2);
     }
-
+.wa-bks {
+  position: absolute;
+  margin-top: 85vh;
+  margin-left: 90vmin;
+}
     .about .row {
         flex-wrap: wrap;
     }
@@ -497,6 +523,11 @@ footer .credit a {
     html {
         font-size: 55%;
     }
+    .wa-bks {
+  position: absolute;
+  margin-top: 80vh;
+  margin-left: 80vmin;
+}
     .hero .content h1 {
         font-size: 3.3rem;
         text-align: center;
